@@ -3,33 +3,139 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		301FC58A2FD18C590019443E /* DailyNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5372FD18C590019443E /* DailyNoteCell.swift */; };
+		301FC58B2FD18C590019443E /* FocusSessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5382FD18C590019443E /* FocusSessionCell.swift */; };
+		301FC58C2FD18C590019443E /* GoalProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5392FD18C590019443E /* GoalProgressCell.swift */; };
+		301FC58D2FD18C590019443E /* HabitListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC53A2FD18C590019443E /* HabitListCell.swift */; };
+		301FC58E2FD18C590019443E /* SettingsActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC53B2FD18C590019443E /* SettingsActionCell.swift */; };
+		301FC58F2FD18C590019443E /* TaskListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC53C2FD18C590019443E /* TaskListCell.swift */; };
+		301FC5902FD18C590019443E /* AchievementBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC53E2FD18C590019443E /* AchievementBannerView.swift */; };
+		301FC5912FD18C590019443E /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC53F2FD18C590019443E /* AppBackgroundView.swift */; };
+		301FC5922FD18C590019443E /* AppDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5402FD18C590019443E /* AppDesignSystem.swift */; };
+		301FC5932FD18C590019443E /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5412FD18C590019443E /* PrimaryButtonStyle.swift */; };
+		301FC5942FD18C590019443E /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5422FD18C590019443E /* ShakeEffect.swift */; };
+		301FC5952FD18C590019443E /* SuccessCheckmarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5432FD18C590019443E /* SuccessCheckmarkOverlay.swift */; };
+		301FC5962FD18C590019443E /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5452FD18C590019443E /* AppDataStore.swift */; };
+		301FC5972FD18C590019443E /* AchievementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5472FD18C590019443E /* AchievementDefinition.swift */; };
+		301FC5982FD18C590019443E /* CustomAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5482FD18C590019443E /* CustomAchievement.swift */; };
+		301FC5992FD18C590019443E /* DailyNoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5492FD18C590019443E /* DailyNoteItem.swift */; };
+		301FC59A2FD18C590019443E /* FocusPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC54A2FD18C590019443E /* FocusPreset.swift */; };
+		301FC59B2FD18C590019443E /* FocusSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC54B2FD18C590019443E /* FocusSessionRecord.swift */; };
+		301FC59C2FD18C590019443E /* HabitGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC54C2FD18C590019443E /* HabitGroup.swift */; };
+		301FC59D2FD18C590019443E /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC54D2FD18C590019443E /* HabitItem.swift */; };
+		301FC59E2FD18C590019443E /* ProgressGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC54E2FD18C590019443E /* ProgressGoal.swift */; };
+		301FC59F2FD18C590019443E /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC54F2FD18C590019443E /* TaskItem.swift */; };
+		301FC5A02FD18C590019443E /* TaskRecurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5502FD18C590019443E /* TaskRecurrence.swift */; };
+		301FC5A12FD18C590019443E /* TaskTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5512FD18C590019443E /* TaskTemplate.swift */; };
+		301FC5A22FD18C590019443E /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5532FD18C590019443E /* AppExternalLink.swift */; };
+		301FC5A32FD18C590019443E /* DataExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5542FD18C590019443E /* DataExportService.swift */; };
+		301FC5A42FD18C590019443E /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5552FD18C590019443E /* FeedbackManager.swift */; };
+		301FC5A52FD18C590019443E /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5562FD18C590019443E /* NotificationNames.swift */; };
+		301FC5A62FD18C590019443E /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5592FD18C590019443E /* FocusView.swift */; };
+		301FC5A72FD18C590019443E /* FocusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC55A2FD18C590019443E /* FocusViewModel.swift */; };
+		301FC5A82FD18C590019443E /* ProgressGoalsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC55C2FD18C590019443E /* ProgressGoalsSection.swift */; };
+		301FC5A92FD18C590019443E /* HabitCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC55E2FD18C590019443E /* HabitCalendarView.swift */; };
+		301FC5AA2FD18C590019443E /* HabitFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC55F2FD18C590019443E /* HabitFormView.swift */; };
+		301FC5AB2FD18C590019443E /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5602FD18C590019443E /* HabitsView.swift */; };
+		301FC5AC2FD18C590019443E /* HabitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5612FD18C590019443E /* HabitsViewModel.swift */; };
+		301FC5AD2FD18C590019443E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5632FD18C590019443E /* HomeView.swift */; };
+		301FC5AE2FD18C590019443E /* HomeWidgetComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5642FD18C590019443E /* HomeWidgetComponents.swift */; };
+		301FC5AF2FD18C590019443E /* WeekOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5662FD18C590019443E /* WeekOverviewView.swift */; };
+		301FC5B02FD18C590019443E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5682FD18C590019443E /* OnboardingView.swift */; };
+		301FC5B12FD18C590019443E /* CustomAchievementsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC56A2FD18C590019443E /* CustomAchievementsSection.swift */; };
+		301FC5B22FD18C590019443E /* DataExportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC56B2FD18C590019443E /* DataExportSheet.swift */; };
+		301FC5B32FD18C590019443E /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC56C2FD18C590019443E /* PrivacyPolicyView.swift */; };
+		301FC5B42FD18C590019443E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC56D2FD18C590019443E /* SettingsView.swift */; };
+		301FC5B52FD18C590019443E /* AchievementsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC56F2FD18C590019443E /* AchievementsGridView.swift */; };
+		301FC5B62FD18C590019443E /* DailyChecklistSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5712FD18C590019443E /* DailyChecklistSection.swift */; };
+		301FC5B72FD18C590019443E /* TaskFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5722FD18C590019443E /* TaskFormView.swift */; };
+		301FC5B82FD18C590019443E /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5732FD18C590019443E /* TasksView.swift */; };
+		301FC5B92FD18C590019443E /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5742FD18C590019443E /* TasksViewModel.swift */; };
+		301FC5BA2FD18C590019443E /* TaskTemplatesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5752FD18C590019443E /* TaskTemplatesSheet.swift */; };
+		301FC5BB2FD18C590019443E /* ToolsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5772FD18C590019443E /* ToolsContainerView.swift */; };
+		301FC5BC2FD18C590019443E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC57A2FD18C590019443E /* MainTabView.swift */; };
+		301FC5BD2FD18C590019443E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC57B2FD18C590019443E /* RootView.swift */; };
+		301FC5BE2FD18C590019443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC57F2FD18C590019443E /* AppDelegate.swift */; };
+		301FC5BF2FD18C590019443E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5812FD18C590019443E /* ContentView.swift */; };
+		301FC5C02FD18C590019443E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5872FD18C590019443E /* SceneDelegate.swift */; };
+		301FC5C12FD18C590019443E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FC5882FD18C590019443E /* ViewController.swift */; };
+		301FC5C22FD18C590019443E /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 301FC57D2FD18C590019443E /* privacy_policy.md */; };
+		301FC5C32FD18C590019443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301FC5802FD18C590019443E /* Assets.xcassets */; };
+		301FC5C52FD18C590019443E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FC5842FD18C590019443E /* LaunchScreen.storyboard */; };
+		301FC5C62FD18C590019443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FC5862FD18C590019443E /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		301FC2D22FD17DF10019443E /* 202NeonReverie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 202NeonReverie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301FC5372FD18C590019443E /* DailyNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNoteCell.swift; sourceTree = "<group>"; };
+		301FC5382FD18C590019443E /* FocusSessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionCell.swift; sourceTree = "<group>"; };
+		301FC5392FD18C590019443E /* GoalProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalProgressCell.swift; sourceTree = "<group>"; };
+		301FC53A2FD18C590019443E /* HabitListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListCell.swift; sourceTree = "<group>"; };
+		301FC53B2FD18C590019443E /* SettingsActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsActionCell.swift; sourceTree = "<group>"; };
+		301FC53C2FD18C590019443E /* TaskListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCell.swift; sourceTree = "<group>"; };
+		301FC53E2FD18C590019443E /* AchievementBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerView.swift; sourceTree = "<group>"; };
+		301FC53F2FD18C590019443E /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		301FC5402FD18C590019443E /* AppDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesignSystem.swift; sourceTree = "<group>"; };
+		301FC5412FD18C590019443E /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		301FC5422FD18C590019443E /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		301FC5432FD18C590019443E /* SuccessCheckmarkOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCheckmarkOverlay.swift; sourceTree = "<group>"; };
+		301FC5452FD18C590019443E /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		301FC5472FD18C590019443E /* AchievementDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDefinition.swift; sourceTree = "<group>"; };
+		301FC5482FD18C590019443E /* CustomAchievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAchievement.swift; sourceTree = "<group>"; };
+		301FC5492FD18C590019443E /* DailyNoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNoteItem.swift; sourceTree = "<group>"; };
+		301FC54A2FD18C590019443E /* FocusPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusPreset.swift; sourceTree = "<group>"; };
+		301FC54B2FD18C590019443E /* FocusSessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionRecord.swift; sourceTree = "<group>"; };
+		301FC54C2FD18C590019443E /* HabitGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGroup.swift; sourceTree = "<group>"; };
+		301FC54D2FD18C590019443E /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+		301FC54E2FD18C590019443E /* ProgressGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGoal.swift; sourceTree = "<group>"; };
+		301FC54F2FD18C590019443E /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		301FC5502FD18C590019443E /* TaskRecurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRecurrence.swift; sourceTree = "<group>"; };
+		301FC5512FD18C590019443E /* TaskTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTemplate.swift; sourceTree = "<group>"; };
+		301FC5532FD18C590019443E /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		301FC5542FD18C590019443E /* DataExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportService.swift; sourceTree = "<group>"; };
+		301FC5552FD18C590019443E /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		301FC5562FD18C590019443E /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		301FC5592FD18C590019443E /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		301FC55A2FD18C590019443E /* FocusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewModel.swift; sourceTree = "<group>"; };
+		301FC55C2FD18C590019443E /* ProgressGoalsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGoalsSection.swift; sourceTree = "<group>"; };
+		301FC55E2FD18C590019443E /* HabitCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCalendarView.swift; sourceTree = "<group>"; };
+		301FC55F2FD18C590019443E /* HabitFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitFormView.swift; sourceTree = "<group>"; };
+		301FC5602FD18C590019443E /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		301FC5612FD18C590019443E /* HabitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewModel.swift; sourceTree = "<group>"; };
+		301FC5632FD18C590019443E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		301FC5642FD18C590019443E /* HomeWidgetComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetComponents.swift; sourceTree = "<group>"; };
+		301FC5662FD18C590019443E /* WeekOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOverviewView.swift; sourceTree = "<group>"; };
+		301FC5682FD18C590019443E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		301FC56A2FD18C590019443E /* CustomAchievementsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAchievementsSection.swift; sourceTree = "<group>"; };
+		301FC56B2FD18C590019443E /* DataExportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportSheet.swift; sourceTree = "<group>"; };
+		301FC56C2FD18C590019443E /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		301FC56D2FD18C590019443E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		301FC56F2FD18C590019443E /* AchievementsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsGridView.swift; sourceTree = "<group>"; };
+		301FC5712FD18C590019443E /* DailyChecklistSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChecklistSection.swift; sourceTree = "<group>"; };
+		301FC5722FD18C590019443E /* TaskFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormView.swift; sourceTree = "<group>"; };
+		301FC5732FD18C590019443E /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		301FC5742FD18C590019443E /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		301FC5752FD18C590019443E /* TaskTemplatesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTemplatesSheet.swift; sourceTree = "<group>"; };
+		301FC5772FD18C590019443E /* ToolsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsContainerView.swift; sourceTree = "<group>"; };
+		301FC57A2FD18C590019443E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		301FC57B2FD18C590019443E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		301FC57D2FD18C590019443E /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		301FC57F2FD18C590019443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		301FC5802FD18C590019443E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		301FC5812FD18C590019443E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		301FC5822FD18C590019443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301FC5832FD18C590019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		301FC5852FD18C590019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301FC5872FD18C590019443E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		301FC5882FD18C590019443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2B233A891EC64A35D07E615 /* Pods-202NeonReverie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-202NeonReverie.release.xcconfig"; path = "Target Support Files/Pods-202NeonReverie/Pods-202NeonReverie.release.xcconfig"; sourceTree = "<group>"; };
+		C27F546D30E3CC995905AA98 /* Pods_202NeonReverie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_202NeonReverie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6894A9DE54F3490BE5721C4 /* Pods-202NeonReverie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-202NeonReverie.debug.xcconfig"; path = "Target Support Files/Pods-202NeonReverie/Pods-202NeonReverie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		301FC2E42FD17DF30019443E /* Exceptions for "202NeonReverie" folder in "202NeonReverie" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 301FC2D12FD17DF10019443E /* 202NeonReverie */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		301FC2D42FD17DF10019443E /* 202NeonReverie */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				301FC2E42FD17DF30019443E /* Exceptions for "202NeonReverie" folder in "202NeonReverie" target */,
-			);
-			path = 202NeonReverie;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		301FC2CF2FD17DF10019443E /* Frameworks */ = {
@@ -45,8 +151,10 @@
 		301FC2C92FD17DF10019443E = {
 			isa = PBXGroup;
 			children = (
-				301FC2D42FD17DF10019443E /* 202NeonReverie */,
+				301FC5892FD18C590019443E /* 202NeonReverie */,
 				301FC2D32FD17DF10019443E /* Products */,
+				6DF91BF435E683D72A69046A /* Pods */,
+				A7E4245CB624C3E1C700B4B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +166,243 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		301FC53D2FD18C590019443E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5372FD18C590019443E /* DailyNoteCell.swift */,
+				301FC5382FD18C590019443E /* FocusSessionCell.swift */,
+				301FC5392FD18C590019443E /* GoalProgressCell.swift */,
+				301FC53A2FD18C590019443E /* HabitListCell.swift */,
+				301FC53B2FD18C590019443E /* SettingsActionCell.swift */,
+				301FC53C2FD18C590019443E /* TaskListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		301FC5442FD18C590019443E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				301FC53D2FD18C590019443E /* Cells */,
+				301FC53E2FD18C590019443E /* AchievementBannerView.swift */,
+				301FC53F2FD18C590019443E /* AppBackgroundView.swift */,
+				301FC5402FD18C590019443E /* AppDesignSystem.swift */,
+				301FC5412FD18C590019443E /* PrimaryButtonStyle.swift */,
+				301FC5422FD18C590019443E /* ShakeEffect.swift */,
+				301FC5432FD18C590019443E /* SuccessCheckmarkOverlay.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		301FC5462FD18C590019443E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5452FD18C590019443E /* AppDataStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		301FC5522FD18C590019443E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5472FD18C590019443E /* AchievementDefinition.swift */,
+				301FC5482FD18C590019443E /* CustomAchievement.swift */,
+				301FC5492FD18C590019443E /* DailyNoteItem.swift */,
+				301FC54A2FD18C590019443E /* FocusPreset.swift */,
+				301FC54B2FD18C590019443E /* FocusSessionRecord.swift */,
+				301FC54C2FD18C590019443E /* HabitGroup.swift */,
+				301FC54D2FD18C590019443E /* HabitItem.swift */,
+				301FC54E2FD18C590019443E /* ProgressGoal.swift */,
+				301FC54F2FD18C590019443E /* TaskItem.swift */,
+				301FC5502FD18C590019443E /* TaskRecurrence.swift */,
+				301FC5512FD18C590019443E /* TaskTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		301FC5572FD18C590019443E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5532FD18C590019443E /* AppExternalLink.swift */,
+				301FC5542FD18C590019443E /* DataExportService.swift */,
+				301FC5552FD18C590019443E /* FeedbackManager.swift */,
+				301FC5562FD18C590019443E /* NotificationNames.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		301FC5582FD18C590019443E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5442FD18C590019443E /* Components */,
+				301FC5462FD18C590019443E /* Data */,
+				301FC5522FD18C590019443E /* Models */,
+				301FC5572FD18C590019443E /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		301FC55B2FD18C590019443E /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5592FD18C590019443E /* FocusView.swift */,
+				301FC55A2FD18C590019443E /* FocusViewModel.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		301FC55D2FD18C590019443E /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				301FC55C2FD18C590019443E /* ProgressGoalsSection.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		301FC5622FD18C590019443E /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				301FC55E2FD18C590019443E /* HabitCalendarView.swift */,
+				301FC55F2FD18C590019443E /* HabitFormView.swift */,
+				301FC5602FD18C590019443E /* HabitsView.swift */,
+				301FC5612FD18C590019443E /* HabitsViewModel.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		301FC5652FD18C590019443E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5632FD18C590019443E /* HomeView.swift */,
+				301FC5642FD18C590019443E /* HomeWidgetComponents.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		301FC5672FD18C590019443E /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5662FD18C590019443E /* WeekOverviewView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		301FC5692FD18C590019443E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5682FD18C590019443E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		301FC56E2FD18C590019443E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				301FC56A2FD18C590019443E /* CustomAchievementsSection.swift */,
+				301FC56B2FD18C590019443E /* DataExportSheet.swift */,
+				301FC56C2FD18C590019443E /* PrivacyPolicyView.swift */,
+				301FC56D2FD18C590019443E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		301FC5702FD18C590019443E /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				301FC56F2FD18C590019443E /* AchievementsGridView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		301FC5762FD18C590019443E /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5712FD18C590019443E /* DailyChecklistSection.swift */,
+				301FC5722FD18C590019443E /* TaskFormView.swift */,
+				301FC5732FD18C590019443E /* TasksView.swift */,
+				301FC5742FD18C590019443E /* TasksViewModel.swift */,
+				301FC5752FD18C590019443E /* TaskTemplatesSheet.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		301FC5782FD18C590019443E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5772FD18C590019443E /* ToolsContainerView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		301FC5792FD18C590019443E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				301FC55B2FD18C590019443E /* Focus */,
+				301FC55D2FD18C590019443E /* Goals */,
+				301FC5622FD18C590019443E /* Habits */,
+				301FC5652FD18C590019443E /* Home */,
+				301FC5672FD18C590019443E /* Insights */,
+				301FC5692FD18C590019443E /* Onboarding */,
+				301FC56E2FD18C590019443E /* Settings */,
+				301FC5702FD18C590019443E /* Stats */,
+				301FC5762FD18C590019443E /* Tasks */,
+				301FC5782FD18C590019443E /* Tools */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		301FC57C2FD18C590019443E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				301FC57A2FD18C590019443E /* MainTabView.swift */,
+				301FC57B2FD18C590019443E /* RootView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		301FC57E2FD18C590019443E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				301FC57D2FD18C590019443E /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		301FC5892FD18C590019443E /* 202NeonReverie */ = {
+			isa = PBXGroup;
+			children = (
+				301FC5582FD18C590019443E /* Core */,
+				301FC5792FD18C590019443E /* Features */,
+				301FC57C2FD18C590019443E /* Main */,
+				301FC57E2FD18C590019443E /* Resources */,
+				301FC57F2FD18C590019443E /* AppDelegate.swift */,
+				301FC5802FD18C590019443E /* Assets.xcassets */,
+				301FC5812FD18C590019443E /* ContentView.swift */,
+				301FC5822FD18C590019443E /* Info.plist */,
+				301FC5842FD18C590019443E /* LaunchScreen.storyboard */,
+				301FC5862FD18C590019443E /* Main.storyboard */,
+				301FC5872FD18C590019443E /* SceneDelegate.swift */,
+				301FC5882FD18C590019443E /* ViewController.swift */,
+			);
+			path = 202NeonReverie;
+			sourceTree = "<group>";
+		};
+		6DF91BF435E683D72A69046A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6894A9DE54F3490BE5721C4 /* Pods-202NeonReverie.debug.xcconfig */,
+				A2B233A891EC64A35D07E615 /* Pods-202NeonReverie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7E4245CB624C3E1C700B4B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C27F546D30E3CC995905AA98 /* Pods_202NeonReverie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 301FC2E52FD17DF30019443E /* Build configuration list for PBXNativeTarget "202NeonReverie" */;
 			buildPhases = (
+				4C4B0EA18C47BBCECC21EADA /* [CP] Check Pods Manifest.lock */,
 				301FC2CE2FD17DF10019443E /* Sources */,
 				301FC2CF2FD17DF10019443E /* Frameworks */,
 				301FC2D02FD17DF10019443E /* Resources */,
@@ -73,12 +419,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				301FC2D42FD17DF10019443E /* 202NeonReverie */,
-			);
 			name = 202NeonReverie;
-			packageProductDependencies = (
-			);
 			productName = 202NeonReverie;
 			productReference = 301FC2D22FD17DF10019443E /* 202NeonReverie.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +440,7 @@
 				};
 			};
 			buildConfigurationList = 301FC2CD2FD17DF10019443E /* Build configuration list for PBXProject "202NeonReverie" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +448,6 @@
 				Base,
 			);
 			mainGroup = 301FC2C92FD17DF10019443E;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 301FC2D32FD17DF10019443E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +462,129 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FC5C22FD18C590019443E /* privacy_policy.md in Resources */,
+				301FC5C32FD18C590019443E /* Assets.xcassets in Resources */,
+				301FC5C52FD18C590019443E /* LaunchScreen.storyboard in Resources */,
+				301FC5C62FD18C590019443E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C4B0EA18C47BBCECC21EADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-202NeonReverie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		301FC2CE2FD17DF10019443E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FC58A2FD18C590019443E /* DailyNoteCell.swift in Sources */,
+				301FC58B2FD18C590019443E /* FocusSessionCell.swift in Sources */,
+				301FC58C2FD18C590019443E /* GoalProgressCell.swift in Sources */,
+				301FC58D2FD18C590019443E /* HabitListCell.swift in Sources */,
+				301FC58E2FD18C590019443E /* SettingsActionCell.swift in Sources */,
+				301FC58F2FD18C590019443E /* TaskListCell.swift in Sources */,
+				301FC5902FD18C590019443E /* AchievementBannerView.swift in Sources */,
+				301FC5912FD18C590019443E /* AppBackgroundView.swift in Sources */,
+				301FC5922FD18C590019443E /* AppDesignSystem.swift in Sources */,
+				301FC5932FD18C590019443E /* PrimaryButtonStyle.swift in Sources */,
+				301FC5942FD18C590019443E /* ShakeEffect.swift in Sources */,
+				301FC5952FD18C590019443E /* SuccessCheckmarkOverlay.swift in Sources */,
+				301FC5962FD18C590019443E /* AppDataStore.swift in Sources */,
+				301FC5972FD18C590019443E /* AchievementDefinition.swift in Sources */,
+				301FC5982FD18C590019443E /* CustomAchievement.swift in Sources */,
+				301FC5992FD18C590019443E /* DailyNoteItem.swift in Sources */,
+				301FC59A2FD18C590019443E /* FocusPreset.swift in Sources */,
+				301FC59B2FD18C590019443E /* FocusSessionRecord.swift in Sources */,
+				301FC59C2FD18C590019443E /* HabitGroup.swift in Sources */,
+				301FC59D2FD18C590019443E /* HabitItem.swift in Sources */,
+				301FC59E2FD18C590019443E /* ProgressGoal.swift in Sources */,
+				301FC59F2FD18C590019443E /* TaskItem.swift in Sources */,
+				301FC5A02FD18C590019443E /* TaskRecurrence.swift in Sources */,
+				301FC5A12FD18C590019443E /* TaskTemplate.swift in Sources */,
+				301FC5A22FD18C590019443E /* AppExternalLink.swift in Sources */,
+				301FC5A32FD18C590019443E /* DataExportService.swift in Sources */,
+				301FC5A42FD18C590019443E /* FeedbackManager.swift in Sources */,
+				301FC5A52FD18C590019443E /* NotificationNames.swift in Sources */,
+				301FC5A62FD18C590019443E /* FocusView.swift in Sources */,
+				301FC5A72FD18C590019443E /* FocusViewModel.swift in Sources */,
+				301FC5A82FD18C590019443E /* ProgressGoalsSection.swift in Sources */,
+				301FC5A92FD18C590019443E /* HabitCalendarView.swift in Sources */,
+				301FC5AA2FD18C590019443E /* HabitFormView.swift in Sources */,
+				301FC5AB2FD18C590019443E /* HabitsView.swift in Sources */,
+				301FC5AC2FD18C590019443E /* HabitsViewModel.swift in Sources */,
+				301FC5AD2FD18C590019443E /* HomeView.swift in Sources */,
+				301FC5AE2FD18C590019443E /* HomeWidgetComponents.swift in Sources */,
+				301FC5AF2FD18C590019443E /* WeekOverviewView.swift in Sources */,
+				301FC5B02FD18C590019443E /* OnboardingView.swift in Sources */,
+				301FC5B12FD18C590019443E /* CustomAchievementsSection.swift in Sources */,
+				301FC5B22FD18C590019443E /* DataExportSheet.swift in Sources */,
+				301FC5B32FD18C590019443E /* PrivacyPolicyView.swift in Sources */,
+				301FC5B42FD18C590019443E /* SettingsView.swift in Sources */,
+				301FC5B52FD18C590019443E /* AchievementsGridView.swift in Sources */,
+				301FC5B62FD18C590019443E /* DailyChecklistSection.swift in Sources */,
+				301FC5B72FD18C590019443E /* TaskFormView.swift in Sources */,
+				301FC5B82FD18C590019443E /* TasksView.swift in Sources */,
+				301FC5B92FD18C590019443E /* TasksViewModel.swift in Sources */,
+				301FC5BA2FD18C590019443E /* TaskTemplatesSheet.swift in Sources */,
+				301FC5BB2FD18C590019443E /* ToolsContainerView.swift in Sources */,
+				301FC5BC2FD18C590019443E /* MainTabView.swift in Sources */,
+				301FC5BD2FD18C590019443E /* RootView.swift in Sources */,
+				301FC5BE2FD18C590019443E /* AppDelegate.swift in Sources */,
+				301FC5BF2FD18C590019443E /* ContentView.swift in Sources */,
+				301FC5C02FD18C590019443E /* SceneDelegate.swift in Sources */,
+				301FC5C12FD18C590019443E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		301FC5842FD18C590019443E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FC5832FD18C590019443E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		301FC5862FD18C590019443E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FC5852FD18C590019443E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		301FC2E62FD17DF30019443E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6894A9DE54F3490BE5721C4 /* Pods-202NeonReverie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +592,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 202NeonReverie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Neon Reverie";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-02NeonReverie";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aer.n30nr4v4r1e;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		301FC2E72FD17DF30019443E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B233A891EC64A35D07E615 /* Pods-202NeonReverie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +633,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 202NeonReverie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Neon Reverie";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-02NeonReverie";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aer.n30nr4v4r1e;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
