@@ -59,12 +59,14 @@ final class LaunchFlowResolver {
         }
         #endif
 
+        sessionStore.reconcileLegacyWebPersistence()
+
         if sessionStore.hasShownNativeShell {
             return .native
         }
 
         if gateEvaluator.isGateOpen() {
-            if let saved = sessionStore.savedLastURL {
+            if sessionStore.hasValidatedWebEntry, let saved = sessionStore.savedLastURL {
                 return .web(saved)
             }
             return .staging
@@ -142,6 +144,7 @@ final class LaunchFlowResolver {
         if success, let finalURL {
             pivotToWeb(url: finalURL)
         } else {
+            sessionStore.clearWebEntryState()
             sessionStore.hasShownNativeShell = true
             pivotToNative()
         }
